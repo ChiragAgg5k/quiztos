@@ -1,11 +1,9 @@
 "use client";
 
-import React, { forwardRef, useRef } from "react";
-import { SiHedera } from "react-icons/si";
-
 import { AnimatedBeam } from "@/components/magicui/animated-beam";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import React, { forwardRef, useRef } from "react";
 import { FcIdea } from "react-icons/fc";
 import { SiNextdotjs, SiWalletconnect } from "react-icons/si";
 
@@ -53,7 +51,8 @@ export function AnimatedBeamMultipleOutputDemo({
       <div className="bg-transparent flex size-full flex-row items-stretch justify-between gap-10 max-w-lg">
         <div className=" flex flex-col justify-center gap-2">
           <Circle ref={div1Ref}>
-            <SiHedera size={36} color="#000" />
+            {/* <SiHedera size={36} color="#000" /> */}
+            <Image src="/aptos.svg" width={36} height={36} alt="aptos logo" />
           </Circle>
 
           <Circle ref={div3Ref}>

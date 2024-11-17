@@ -13,39 +13,38 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "Quiztos has revolutionized the way I learn and challenge myself. The AI-generated quizzes are both fun and educational, making Web3 concepts easier to grasp. Highly recommended!",
-    name: "Swastik ",
+      "Quiztos has transformed my Web3 learning journey. The AI-powered quizzes adapt to my knowledge level, making complex concepts digestible and engaging. It's like having a personal tutor!",
+    name: "Swastik",
     title: "Open Source Developer",
   },
   {
     quote:
-      "As a Web3 developer, I find Quiztos incredibly useful for staying updated with the latest trends and technologies. The decentralized nature ensures transparency and fairness in every quiz.",
+      "The integration of blockchain with quiz validation is brilliant. As someone deeply involved in Web3, I appreciate how Quiztos maintains integrity while making learning fun and rewarding.",
     name: "Satyam",
-    title: "Web3 Developer",
+    title: "Blockchain Engineer",
   },
   {
     quote:
-      "Quiztos is a game-changer in the ed-tech space. The seamless integration of AI and decentralization provides a robust and immersive learning experience. A must-try for anyone interested in Web3.",
-    name: "Yash ",
+      "What sets Quiztos apart is its innovative approach to ed-tech. The platform combines AI's adaptability with blockchain's transparency to create an unparalleled learning ecosystem.",
+    name: "Yash",
     title: "FullStack Developer",
   },
-
   {
     quote:
-      "As a Web3 developer, I find Quiztos incredibly useful for staying updated with the latest trends and technologies. The decentralized nature ensures transparency and fairness in every quiz.",
-    name: "Satyam",
-    title: "Web3 Developer",
+      "I've tried many learning platforms, but Quiztos stands out with its real-time feedback and personalized question generation. The decentralized rewards system adds extra motivation!",
+    name: "Priya",
+    title: "DeFi Developer",
   },
   {
     quote:
-      "Quiztos offers a unique blend of AI and blockchain technology. The quizzes are engaging, and the platform's decentralized structure adds a layer of trust and security that's unmatched.",
+      "As an educator in the Web3 space, I'm impressed by how Quiztos balances technical depth with accessibility. The AI ensures questions remain challenging yet achievable for all skill levels.",
     name: "Rakesh",
-    title: "Web3 Developer",
+    title: "Blockchain Educator",
   },
   {
     quote:
-      "I love how Quiztos makes learning about Web3 so interactive and accessible. The AI-generated questions are always fresh and challenging, keeping me on my toes!",
+      "The gamification elements in Quiztos make learning addictive! I love how each quiz feels unique thanks to the AI, and the blockchain integration ensures my achievements are verifiable.",
     name: "Rachit",
-    title: "FullStack Developer",
+    title: "Smart Contract Developer",
   },
 ];

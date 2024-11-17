@@ -1,11 +1,10 @@
 "use client";
-import React from "react";
-import { BackgroundBeams } from "@/components/ui/background-beams";
 import { AnimatedTooltipPreview } from "@/components/people";
+import { BackgroundBeams } from "@/components/ui/background-beams";
+import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { SiFarcaster } from "react-icons/si";
-import Link from "next/link";
 
 export function BackgroundBeamsDemo() {
   return (
@@ -36,7 +35,13 @@ export function BackgroundBeamsDemo() {
             </h1>
 
             <p className="text-neutral-500 max-w-lg mx-auto mt-2 text-xl text-center relative z-10">
-              Mail us at Yashraj.se10@gmail.com
+              Reach out to us on{" "}
+              <Link
+                className="text-blue-500"
+                href={"https://github.com/ChiragAgg5k/quiztos"}
+              >
+                Github
+              </Link>
             </p>
           </div>
         </div>

@@ -65,7 +65,7 @@ export default function RootLayout({
 }>) {
   const initialState = cookieToInitialState(config, headers().get("cookie"));
   return (
-    <html lang="en">
+    <html lang="en" className="bg-black">
       <body
         className={
           inter.className + "  dark:bg-dot-white/[0.2] bg-dot-black/[0.2]"
