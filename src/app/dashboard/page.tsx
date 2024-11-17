@@ -18,7 +18,7 @@ export default function Play() {
 
   function get_user_quiz() {
     setLoading(true);
-    fetch("localhost:5000/get_user_quizes", {
+    fetch("localhost:5500/get_user_quizes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

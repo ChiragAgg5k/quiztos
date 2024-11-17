@@ -32,7 +32,7 @@ export default function Play() {
   }, [loading, searchParams]);
 
   function fetch_quiz(quizId: any) {
-    fetch("localhost:5000/get_quiz", {
+    fetch("localhost:5500/get_quiz", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -64,7 +64,7 @@ export default function Play() {
   function handleSubmit(event: React.FormEvent) {
     setSubmitting(true);
     event.preventDefault();
-    fetch("localhost:5000/submit_attempt", {
+    fetch("localhost:5500/submit_attempt", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

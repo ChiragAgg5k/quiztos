@@ -22,7 +22,7 @@ export default function Play() {
   }, []);
 
   function fetch_leaderboard(quizId: any) {
-    fetch("localhost:5000/get_leaderboard", {
+    fetch("localhost:5500/get_leaderboard", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

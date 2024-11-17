@@ -39,3 +39,4 @@ fleek_functions/.env
 .idea
 backend/.env
 .env
+backend/

@@ -49,7 +49,7 @@ export default function Home() {
       return;
     }
 
-    fetch("localhost:5000/save_question", {
+    fetch("localhost:5500/save_question", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
